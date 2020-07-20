@@ -100,8 +100,8 @@ const cummSum = (array) => {
 // Here I will want to declare a variable for use within the function but outside of my map function. That way it will be the same variable throughout the map function
     let currSum = 0
 // Now I'll set up a map function that will add to this outside variable whatever our current value is, that way we can keep a running cummulative sum
-    return sumArray = array.map(value => {
-        currSum = currSum + value
+    return array.map(value => {
+        currSum += value
 // So each iteration of the map function it's pushing the currSum variable to the array rather than the value
         return currSum
     })
