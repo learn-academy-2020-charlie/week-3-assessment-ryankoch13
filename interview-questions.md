@@ -52,8 +52,10 @@ Answer the following questions. First, without external resources. Challenge you
 
 ## Looking Ahead: Terms for Next Week
 - Object oriented programming - Ojected oriented programming is a programming paradigm in which programmers must define the data type as well as the functions that can be applied to said data structures. 
+
 - irb - Interactive Ruby - an easy way to practice writing Ruby code without having to create a file (all in the comfort of your very own Mac terminal!)
 - Instance variable - A variable defined in the class, so that each object constructed from that class has its own instance
+
 - Ruby - A high-level, object oriented programming language designed by Yukihiro "Matz" Matsumoto. It has a unique culture and design concept centered around programmer happiness and ease of use. MINASWAN
 
 - Class relationships - Ways of sharing, accessing, or changing data and properties in classes or objects

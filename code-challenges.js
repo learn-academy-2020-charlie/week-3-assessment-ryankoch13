@@ -3,8 +3,17 @@
 
 // --------------------1) Create a function that returns the first 10 numbers of the Fibonacci sequence in an array. Expected output: [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
+const fibSeq = () => {
+    let fibArr = [1]
+    let num = 1
+    for ( let i=0 ; i<=10 ; i++ ){
+        fibArr.push(num)
+        num = fibArr[fibArr.length-2] + fibArr[fibArr.length-1]
+    }
+    return fibArr
+}
 
-
+console.log(fibSeq())
 
 // --------------------2) Create a function that takes in an array and returns a new array of only odd numbers sorted from least to greatest.
 
@@ -29,8 +38,8 @@ const onlyOdds = (array) => {
 
 }
 
-//console.log(onlyOdds(fullArr1))
-//console.log(onlyOdds(fullArr2))
+console.log(onlyOdds(fullArr1))
+console.log(onlyOdds(fullArr2))
 
 // --------------------3) Create a function that takes in a string of a single word and returns the middle letter of the word. If the word is an even number of letters, return the two middle letters.
 
