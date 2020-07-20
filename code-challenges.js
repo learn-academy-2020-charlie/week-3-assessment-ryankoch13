@@ -28,7 +28,7 @@ const onlyOdds = (array) => {
 
 // Next I would like to create a filter that will push only values that meet 2 conditions - they are a number and they are an odd number. 
 
-    let onlyNums = array.filter(value => typeof value === "number" && value % 2 != 0)
+    let onlyNums = array.filter(value => typeof value === "number" && value % 2 !== 0)
 
 // Now I'll need to sort my numbers by least to greatest, being careful to define the condition on my sort function since JavaScript can have a hard time with type coersion. 
 
