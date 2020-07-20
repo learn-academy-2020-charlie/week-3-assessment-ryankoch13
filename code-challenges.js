@@ -8,7 +8,7 @@ const fibSeq = () => {
     let num = 1
     for ( let i=0 ; i<=10 ; i++ ){
         fibArr.push(num)
-        num = fibArr[fibArr.length-2] + fibArr[fibArr.length-1]
+        num = num + fibArr[fibArr.length-2]
     }
     return fibArr
 }
